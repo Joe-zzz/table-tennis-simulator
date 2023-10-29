@@ -1,0 +1,215 @@
+﻿  glad.c
+  Ball.cpp
+  coordinate.cpp
+  main.cpp
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\main.cpp(49,35): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\main.cpp(49,23): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\main.cpp(61,22): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\main.cpp(73,80): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\main.cpp(75,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\main.cpp(76,17): warning C4305: “=”: 从“double”到“float”截断
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\main.cpp(102,14): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\main.cpp(111,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\main.cpp(114,41): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\main.cpp(122,23): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\main.cpp(190,49): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\main.cpp(203,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  mainwindow.cpp
+D:\Qt\Qt5.12.9\5.12.9\msvc2017_64\include\QtCore\qconfig.h(34,1): warning C4005: “QT_LARGEFILE_SUPPORT”: 宏重定义
+C:\Users\mi\source\repos\table tennis Project\table tennis Project\mainwindow.cpp : message : 参见“QT_LARGEFILE_SUPPORT”的前一个定义
+  object.cpp
+  Project.cpp
+  shader.cpp
+  SpriteRenderer.cpp
+  Texture.cpp
+  正在生成代码...
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QWidget::QWidget(class QWidget *,class QFlags<enum Qt::WindowType>)" (__imp_??0QWidget@@QEAA@PEAV0@V?$QFlags@W4WindowType@Qt@@@@@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QWidget::~QWidget(void)" (__imp_??1QWidget@@UEAA@XZ)，函数 "public: virtual void * __cdecl QWidget::`scalar deleting destructor'(unsigned int)" (??_GQWidget@@UEAAPEAXI@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QWidget::setWindowTitle(class QString const &)" (__imp_?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z)，函数 "public: void __cdecl Ui_MainWindow::retranslateUi(class QMainWindow *)" (?retranslateUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QWidget::resize(int,int)" (__imp_?resize@QWidget@@QEAAXHH@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QWidget::setGeometry(class QRect const &)" (__imp_?setGeometry@QWidget@@QEAAXAEBVQRect@@@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QMainWindow::QMainWindow(class QWidget *,class QFlags<enum Qt::WindowType>)" (__imp_??0QMainWindow@@QEAA@PEAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z)，函数 "public: __cdecl MainWindow::MainWindow(class QWidget *)" (??0MainWindow@@QEAA@PEAVQWidget@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QMainWindow::~QMainWindow(void)" (__imp_??1QMainWindow@@UEAA@XZ)，函数 "int `public: __cdecl MainWindow::MainWindow(class QWidget *)'::`1'::dtor$0" (?dtor$0@?0???0MainWindow@@QEAA@PEAVQWidget@@@Z@4HA) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QMainWindow::setMenuBar(class QMenuBar *)" (__imp_?setMenuBar@QMainWindow@@QEAAXPEAVQMenuBar@@@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QMainWindow::setStatusBar(class QStatusBar *)" (__imp_?setStatusBar@QMainWindow@@QEAAXPEAVQStatusBar@@@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QMainWindow::setCentralWidget(class QWidget *)" (__imp_?setCentralWidget@QMainWindow@@QEAAXPEAVQWidget@@@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl MainWindow::metaObject(void)const " (?metaObject@MainWindow@@UEBAPEBUQMetaObject@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl MainWindow::qt_metacast(char const *)" (?qt_metacast@MainWindow@@UEAAPEAXPEBD@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl MainWindow::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@MainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QComboBox::QComboBox(class QWidget *)" (__imp_??0QComboBox@@QEAA@PEAVQWidget@@@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QComboBox::~QComboBox(void)" (__imp_??1QComboBox@@UEAA@XZ)，函数 "public: virtual void * __cdecl QComboBox::`scalar deleting destructor'(unsigned int)" (??_GQComboBox@@UEAAPEAXI@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: int __cdecl QComboBox::currentIndex(void)const " (__imp_?currentIndex@QComboBox@@QEBAHXZ)，函数 "private: void __cdecl MainWindow::on_pushButton_clicked(void)" (?on_pushButton_clicked@MainWindow@@AEAAXXZ) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QComboBox::addItem(class QString const &,class QVariant const &)" (__imp_?addItem@QComboBox@@QEAAXAEBVQString@@AEBVQVariant@@@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QComboBox::setItemText(int,class QString const &)" (__imp_?setItemText@QComboBox@@QEAAXHAEBVQString@@@Z)，函数 "public: void __cdecl Ui_MainWindow::retranslateUi(class QMainWindow *)" (?retranslateUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QLabel::QLabel(class QWidget *,class QFlags<enum Qt::WindowType>)" (__imp_??0QLabel@@QEAA@PEAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QLabel::~QLabel(void)" (__imp_??1QLabel@@UEAA@XZ)，函数 "public: virtual void * __cdecl QLabel::`scalar deleting destructor'(unsigned int)" (??_GQLabel@@UEAAPEAXI@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QLabel::setText(class QString const &)" (__imp_?setText@QLabel@@QEAAXAEBVQString@@@Z)，函数 "public: void __cdecl Ui_MainWindow::retranslateUi(class QMainWindow *)" (?retranslateUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QLineEdit::QLineEdit(class QWidget *)" (__imp_??0QLineEdit@@QEAA@PEAVQWidget@@@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QLineEdit::~QLineEdit(void)" (__imp_??1QLineEdit@@UEAA@XZ)，函数 "public: virtual void * __cdecl QLineEdit::`scalar deleting destructor'(unsigned int)" (??_GQLineEdit@@UEAAPEAXI@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString __cdecl QLineEdit::text(void)const " (__imp_?text@QLineEdit@@QEBA?AVQString@@XZ)，函数 "private: void __cdecl MainWindow::on_pushButton_clicked(void)" (?on_pushButton_clicked@MainWindow@@AEAAXXZ) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QLineEdit::setText(class QString const &)" (__imp_?setText@QLineEdit@@QEAAXAEBVQString@@@Z)，函数 "private: void __cdecl MainWindow::on_downSpeed_textEdited(class QString const &)" (?on_downSpeed_textEdited@MainWindow@@AEAAXAEBVQString@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QMenuBar::QMenuBar(class QWidget *)" (__imp_??0QMenuBar@@QEAA@PEAVQWidget@@@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QMenuBar::~QMenuBar(void)" (__imp_??1QMenuBar@@UEAA@XZ)，函数 "public: virtual void * __cdecl QMenuBar::`scalar deleting destructor'(unsigned int)" (??_GQMenuBar@@UEAAPEAXI@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __cdecl QAbstractButton::setText(class QString const &)" (__imp_?setText@QAbstractButton@@QEAAXAEBVQString@@@Z)，函数 "public: void __cdecl Ui_MainWindow::retranslateUi(class QMainWindow *)" (?retranslateUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QPushButton::QPushButton(class QWidget *)" (__imp_??0QPushButton@@QEAA@PEAVQWidget@@@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QPushButton::~QPushButton(void)" (__imp_??1QPushButton@@UEAA@XZ)，函数 "public: virtual void * __cdecl QPushButton::`scalar deleting destructor'(unsigned int)" (??_GQPushButton@@UEAAPEAXI@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __cdecl QStatusBar::QStatusBar(class QWidget *)" (__imp_??0QStatusBar@@QEAA@PEAVQWidget@@@Z)，函数 "public: void __cdecl Ui_MainWindow::setupUi(class QMainWindow *)" (?setupUi@Ui_MainWindow@@QEAAXPEAVQMainWindow@@@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __cdecl QStatusBar::~QStatusBar(void)" (__imp_??1QStatusBar@@UEAA@XZ)，函数 "public: virtual void * __cdecl QStatusBar::`scalar deleting destructor'(unsigned int)" (??_GQStatusBar@@UEAAPEAXI@Z) 中引用了该符号
+mainwindow.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: static enum QMessageBox::StandardButton __cdecl QMessageBox::information(class QWidget *,class QString const &,class QString const &,class QFlags<enum QMessageBox::StandardButton>,enum QMessageBox::StandardButton)" (__imp_?information@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z)，函数 "private: void __cdecl MainWindow::on_pushButton_clicked(void)" (?on_pushButton_clicked@MainWindow@@AEAAXXZ) 中引用了该符号
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMenuBar::actionEvent(class QActionEvent *)" (?actionEvent@QMenuBar@@MEAAXPEAVQActionEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::actionEvent(class QActionEvent *)" (?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::changeEvent(class QEvent *)" (?changeEvent@QAbstractButton@@MEAAXPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::changeEvent(class QEvent *)" (?changeEvent@QComboBox@@MEAAXPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLabel::changeEvent(class QEvent *)" (?changeEvent@QLabel@@MEAAXPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::changeEvent(class QEvent *)" (?changeEvent@QLineEdit@@MEAAXPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMenuBar::changeEvent(class QEvent *)" (?changeEvent@QMenuBar@@MEAAXPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::changeEvent(class QEvent *)" (?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::checkStateSet(void)" (?checkStateSet@QAbstractButton@@MEAAXXZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::closeEvent(class QCloseEvent *)" (?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QComboBox@@MEAAXPEAVQContextMenuEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLabel::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QLabel@@MEAAXPEAVQContextMenuEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QLineEdit@@MEAAXPEAVQContextMenuEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMainWindow::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QMainWindow@@MEAAXPEAVQContextMenuEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QWidget@@MEAAXPEAVQContextMenuEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QMenu * __cdecl QMainWindow::createPopupMenu(void)" (?createPopupMenu@QMainWindow@@UEAAPEAVQMenu@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QWidget::devType(void)const " (?devType@QWidget@@UEBAHXZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::dragEnterEvent(class QDragEnterEvent *)" (?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::dragEnterEvent(class QDragEnterEvent *)" (?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::dragLeaveEvent(class QDragLeaveEvent *)" (?dragLeaveEvent@QLineEdit@@MEAAXPEAVQDragLeaveEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::dragLeaveEvent(class QDragLeaveEvent *)" (?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::dragMoveEvent(class QDragMoveEvent *)" (?dragMoveEvent@QLineEdit@@MEAAXPEAVQDragMoveEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::dragMoveEvent(class QDragMoveEvent *)" (?dragMoveEvent@QWidget@@MEAAXPEAVQDragMoveEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::dropEvent(class QDropEvent *)" (?dropEvent@QLineEdit@@MEAAXPEAVQDropEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::dropEvent(class QDropEvent *)" (?dropEvent@QWidget@@MEAAXPEAVQDropEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::enterEvent(class QEvent *)" (?enterEvent@QWidget@@MEAAXPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QComboBox::event(class QEvent *)" (?event@QComboBox@@UEAA_NPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QLabel::event(class QEvent *)" (?event@QLabel@@MEAA_NPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QLineEdit::event(class QEvent *)" (?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QMainWindow::event(class QEvent *)" (?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QMenuBar::event(class QEvent *)" (?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QPushButton::event(class QEvent *)" (?event@QPushButton@@MEAA_NPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QStatusBar::event(class QEvent *)" (?event@QStatusBar@@MEAA_NPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QWidget::event(class QEvent *)" (?event@QWidget@@MEAA_NPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QMenuBar::eventFilter(class QObject *,class QEvent *)" (?eventFilter@QMenuBar@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::focusInEvent(class QFocusEvent *)" (?focusInEvent@QComboBox@@MEAAXPEAVQFocusEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLabel::focusInEvent(class QFocusEvent *)" (?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::focusInEvent(class QFocusEvent *)" (?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMenuBar::focusInEvent(class QFocusEvent *)" (?focusInEvent@QMenuBar@@MEAAXPEAVQFocusEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QPushButton::focusInEvent(class QFocusEvent *)" (?focusInEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::focusInEvent(class QFocusEvent *)" (?focusInEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QLabel::focusNextPrevChild(bool)" (?focusNextPrevChild@QLabel@@MEAA_N_N@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QWidget::focusNextPrevChild(bool)" (?focusNextPrevChild@QWidget@@MEAA_N_N@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QComboBox@@MEAAXPEAVQFocusEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLabel::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMenuBar::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QMenuBar@@MEAAXPEAVQFocusEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QPushButton::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl QWidget::hasHeightForWidth(void)const " (?hasHeightForWidth@QWidget@@UEBA_NXZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QLabel::heightForWidth(int)const " (?heightForWidth@QLabel@@UEBAHH@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QMenuBar::heightForWidth(int)const " (?heightForWidth@QMenuBar@@UEBAHH@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QWidget::heightForWidth(int)const " (?heightForWidth@QWidget@@UEBAHH@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::hideEvent(class QHideEvent *)" (?hideEvent@QComboBox@@MEAAXPEAVQHideEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::hideEvent(class QHideEvent *)" (?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QComboBox::hidePopup(void)" (?hidePopup@QComboBox@@UEAAXXZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QAbstractButton::hitButton(class QPoint const &)const " (?hitButton@QAbstractButton@@MEBA_NAEBVQPoint@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::initPainter(class QPainter *)const " (?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QComboBox@@MEAAXPEAVQInputMethodEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QLineEdit@@MEAAXPEAVQInputMethodEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __cdecl QComboBox::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QComboBox@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __cdecl QLineEdit::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QLineEdit@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __cdecl QWidget::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QWidget@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QComboBox@@MEAAXPEAVQKeyEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLabel::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QLabel@@MEAAXPEAVQKeyEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QLineEdit@@MEAAXPEAVQKeyEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMenuBar::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QMenuBar@@MEAAXPEAVQKeyEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QPushButton::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QPushButton@@MEAAXPEAVQKeyEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QAbstractButton@@MEAAXPEAVQKeyEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QComboBox@@MEAAXPEAVQKeyEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMenuBar::leaveEvent(class QEvent *)" (?leaveEvent@QMenuBar@@MEAAXPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::leaveEvent(class QEvent *)" (?leaveEvent@QWidget@@MEAAXPEAVQEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QComboBox::metaObject(void)const " (?metaObject@QComboBox@@UEBAPEBUQMetaObject@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QLabel::metaObject(void)const " (?metaObject@QLabel@@UEBAPEBUQMetaObject@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QLineEdit::metaObject(void)const " (?metaObject@QLineEdit@@UEBAPEBUQMetaObject@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QMenuBar::metaObject(void)const " (?metaObject@QMenuBar@@UEBAPEBUQMetaObject@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QPushButton::metaObject(void)const " (?metaObject@QPushButton@@UEBAPEBUQMetaObject@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QStatusBar::metaObject(void)const " (?metaObject@QStatusBar@@UEBAPEBUQMetaObject@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __cdecl QWidget::metaObject(void)const " (?metaObject@QWidget@@UEBAPEBUQMetaObject@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual int __cdecl QWidget::metric(enum QPaintDevice::PaintDeviceMetric)const " (?metric@QWidget@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QComboBox::minimumSizeHint(void)const " (?minimumSizeHint@QComboBox@@UEBA?AVQSize@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QLabel::minimumSizeHint(void)const " (?minimumSizeHint@QLabel@@UEBA?AVQSize@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QLineEdit::minimumSizeHint(void)const " (?minimumSizeHint@QLineEdit@@UEBA?AVQSize@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QMenuBar::minimumSizeHint(void)const " (?minimumSizeHint@QMenuBar@@UEBA?AVQSize@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QPushButton::minimumSizeHint(void)const " (?minimumSizeHint@QPushButton@@UEBA?AVQSize@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QWidget::minimumSizeHint(void)const " (?minimumSizeHint@QWidget@@UEBA?AVQSize@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::mouseDoubleClickEvent(class QMouseEvent *)" (?mouseDoubleClickEvent@QLineEdit@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::mouseDoubleClickEvent(class QMouseEvent *)" (?mouseDoubleClickEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QAbstractButton@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLabel::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QLabel@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QLineEdit@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMenuBar::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QMenuBar@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QAbstractButton@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QComboBox@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLabel::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QLabel@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QLineEdit@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMenuBar::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QMenuBar@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QAbstractButton@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QComboBox@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLabel::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QLabel@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QLineEdit@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMenuBar::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QMenuBar@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::moveEvent(class QMoveEvent *)" (?moveEvent@QWidget@@MEAAXPEAVQMoveEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __cdecl QWidget::nativeEvent(class QByteArray const &,void *,long *)" (?nativeEvent@QWidget@@MEAA_NAEBVQByteArray@@PEAXPEAJ@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::nextCheckState(void)" (?nextCheckState@QAbstractButton@@MEAAXXZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QPaintEngine * __cdecl QWidget::paintEngine(void)const " (?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::paintEvent(class QPaintEvent *)" (?paintEvent@QComboBox@@MEAAXPEAVQPaintEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLabel::paintEvent(class QPaintEvent *)" (?paintEvent@QLabel@@MEAAXPEAVQPaintEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QLineEdit::paintEvent(class QPaintEvent *)" (?paintEvent@QLineEdit@@MEAAXPEAVQPaintEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMenuBar::paintEvent(class QPaintEvent *)" (?paintEvent@QMenuBar@@MEAAXPEAVQPaintEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QPushButton::paintEvent(class QPaintEvent *)" (?paintEvent@QPushButton@@MEAAXPEAVQPaintEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QStatusBar::paintEvent(class QPaintEvent *)" (?paintEvent@QStatusBar@@MEAAXPEAVQPaintEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::paintEvent(class QPaintEvent *)" (?paintEvent@QWidget@@MEAAXPEAVQPaintEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QComboBox::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QComboBox@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QLabel::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QLabel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QLineEdit::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QLineEdit@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QMenuBar::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QMenuBar@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QPushButton::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QPushButton@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QStatusBar::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QStatusBar@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl QWidget::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QComboBox::qt_metacast(char const *)" (?qt_metacast@QComboBox@@UEAAPEAXPEBD@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QLabel::qt_metacast(char const *)" (?qt_metacast@QLabel@@UEAAPEAXPEBD@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QLineEdit::qt_metacast(char const *)" (?qt_metacast@QLineEdit@@UEAAPEAXPEBD@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QMenuBar::qt_metacast(char const *)" (?qt_metacast@QMenuBar@@UEAAPEAXPEBD@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QPushButton::qt_metacast(char const *)" (?qt_metacast@QPushButton@@UEAAPEAXPEBD@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QStatusBar::qt_metacast(char const *)" (?qt_metacast@QStatusBar@@UEAAPEAXPEBD@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __cdecl QWidget::qt_metacast(char const *)" (?qt_metacast@QWidget@@UEAAPEAXPEBD@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QPaintDevice * __cdecl QWidget::redirected(class QPoint *)const " (?redirected@QWidget@@MEBAPEAVQPaintDevice@@PEAVQPoint@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::resizeEvent(class QResizeEvent *)" (?resizeEvent@QComboBox@@MEAAXPEAVQResizeEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMenuBar::resizeEvent(class QResizeEvent *)" (?resizeEvent@QMenuBar@@MEAAXPEAVQResizeEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QStatusBar::resizeEvent(class QResizeEvent *)" (?resizeEvent@QStatusBar@@MEAAXPEAVQResizeEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::resizeEvent(class QResizeEvent *)" (?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QMenuBar::setVisible(bool)" (?setVisible@QMenuBar@@UEAAX_N@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QWidget::setVisible(bool)" (?setVisible@QWidget@@UEAAX_N@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QPainter * __cdecl QWidget::sharedPainter(void)const " (?sharedPainter@QWidget@@MEBAPEAVQPainter@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::showEvent(class QShowEvent *)" (?showEvent@QComboBox@@MEAAXPEAVQShowEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QStatusBar::showEvent(class QShowEvent *)" (?showEvent@QStatusBar@@MEAAXPEAVQShowEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::showEvent(class QShowEvent *)" (?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl QComboBox::showPopup(void)" (?showPopup@QComboBox@@UEAAXXZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QComboBox::sizeHint(void)const " (?sizeHint@QComboBox@@UEBA?AVQSize@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QLabel::sizeHint(void)const " (?sizeHint@QLabel@@UEBA?AVQSize@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QLineEdit::sizeHint(void)const " (?sizeHint@QLineEdit@@UEBA?AVQSize@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QMenuBar::sizeHint(void)const " (?sizeHint@QMenuBar@@UEBA?AVQSize@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QPushButton::sizeHint(void)const " (?sizeHint@QPushButton@@UEBA?AVQSize@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __cdecl QWidget::sizeHint(void)const " (?sizeHint@QWidget@@UEBA?AVQSize@@XZ)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::tabletEvent(class QTabletEvent *)" (?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QAbstractButton::timerEvent(class QTimerEvent *)" (?timerEvent@QAbstractButton@@MEAAXPEAVQTimerEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QMenuBar::timerEvent(class QTimerEvent *)" (?timerEvent@QMenuBar@@MEAAXPEAVQTimerEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QComboBox::wheelEvent(class QWheelEvent *)" (?wheelEvent@QComboBox@@MEAAXPEAVQWheelEvent@@@Z)
+mainwindow.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __cdecl QWidget::wheelEvent(class QWheelEvent *)" (?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z)
+C:\Users\mi\source\repos\table tennis Project\x64\Debug\table tennis Project.exe : fatal error LNK1120: 189 个无法解析的外部命令
